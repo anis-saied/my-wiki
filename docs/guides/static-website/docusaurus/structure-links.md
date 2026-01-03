@@ -1,6 +1,6 @@
 ---
 title: Structure of How To Wiki
-slug: /guides/how-to-work-with-docusaurus/structure-links
+slug: /guides/static-website/docusaurus/structure-links
 sidebar_position: 1
 last_update:
   date: 2026-01-03
