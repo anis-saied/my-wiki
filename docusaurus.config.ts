@@ -146,3 +146,12 @@ const config: Config = {
 };
 
 export default config;
+
+
+module.exports = {
+  url: 'https://anis-saied.github.io',
+  baseUrl: '/my-wiki/',
+  organizationName: 'anis-saied',
+  projectName: 'my-wiki',
+  deploymentBranch: 'gh-pages',
+};
