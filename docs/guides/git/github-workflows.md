@@ -23,11 +23,11 @@ open this url : https://github.com/anis-saied/simple-shop/settings/secrets/actio
     
 add 2 secrets actions :
         
-- **FTP_USERNAME** (see the ftp login on https://www.ovh.com/manager/#/web/hosting/wzdhrfd.cluster029.hosting.ovh.net/ftp)
-- **FTP_PASSWORD** (see password from /home/orca/Documents/data/projects-credentials.md)
+- **FTP_USERNAME** 
+- **FTP_PASSWORD**
 
 
-2. Create a **Workflow File**: 
+1. Create a **Workflow File**: 
 - In your GitHub repository, create a directory named .**github/workflows** if it doesn't exist already. 
 - Then create a YAML file inside this directory, for example, **deploy.yml**. This file will define your workflow.
     

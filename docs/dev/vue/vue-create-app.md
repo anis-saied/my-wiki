@@ -435,9 +435,9 @@ Add this deployment script into `delpoy.sh`
 ```bash
 #!/bin/bash
 
-HOST="ftp.cluster029.hosting.ovh.net"
-USER="mwkybwo"
-PASS="MyNewPass25"  # Replace with your FTP password
+HOST=$FTP_HOST
+USER=$FTP_USERNAME
+PASS=$FTP_PASSWORD  # Replace with your FTP password
 REMOTE_DIR="/www"   # Replace with your remote directory
 LOCAL_DIR="./app/dist"   # Replace with the path to your local app directory
 
