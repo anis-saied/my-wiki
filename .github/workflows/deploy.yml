@@ -34,4 +34,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           # Force push en utilisant une branche orpheline
+          # recrée une branche orpheline pour gh-pages, ce qui supprime tout ancien contenu.
           force_orphan: true
