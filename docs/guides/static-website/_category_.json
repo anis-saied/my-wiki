@@ -1,0 +1,8 @@
+{
+  "label": "static-website",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "This folder 'static-website' documentation"
+  }
+}

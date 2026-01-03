@@ -1,0 +1,58 @@
+A URL provides the location of the resource. A URI identifies the resource by name at the specified location or URL. 
+A Uniform Resource Name (URN) is a URI that identifies a resource by name in a particular namespace. 
+A URN is analogous to a person's name, while a URL is analogous to their street address. In other words, a URN identifies an item and a URL provides a method for finding it. 
+a URL is simply a URI that happens to point to a resource over a network.
+web industry
+SPA-style client-side routing
+permission policy
+
+Cookie request header,  
+	server can send a Set-Cookie HTTP header with the response. 
+	client returns the cookie's value with every request
+	
+Cross-site HTTP requests 
+	HTTP requests for resources from a different domain than the domain of the resource making the request.
+	Example of resources: CSS stylesheets, images, scripts, and other resource
+	=>  CORS allows web developers to control how their site reacts to cross-site requests.
+	Cross-Origin Resource Sharing (CORS) [Partage des ressources d'origine croisée (CORS)]
+	
+
+client:
+- send request 	
+	first request
+	next requests
+- receive response
+	first response
+	next responses
+
+server:
+- receive request
+	first request
+	next requests
+	all requests
+		control how their site reacts to cross-site requests => Cross-site HTTP requests 
+- return response
+	first response
+		request informations from client (web browser) => HTTP Client Hints 
+		Example server response header:
+		Accept-CH: Width, DPR, Viewport-Width
+			the server is requesting information about 
+			the client's width, device pixel ratio (DPR), and viewport width.
+		the client Response:
+			Width: 1920
+			DPR: 2
+			Viewport-Width: 1280
+			In this example, the client is providing information about its 
+			screen width, DPR, and viewport width to the server.
+		
+	next responses
+
+Resonpse:
+-Header (Http Headers)
+	1. Client Hints are communicated through response headers sent 
+	by the server to optimize the content they deliver to clients.
+	Examples:
+	* User-Agent Header : to request more detailed information about the client's browser or device.
+	2. Cookie
+	3. Cache
+	

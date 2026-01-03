@@ -1,0 +1,24 @@
+Http Client Hints
+1/ User-Agent
+	to know the type of the devices used for the site
+examples of client hints
+    Width (Width): Provides the client's layout viewport width in CSS pixels.
+    Viewport Width (Viewport-Width): Provides the client's visual viewport width in CSS pixels.
+    DPR (Device Pixel Ratio) (DPR): Indicates the client's device pixel ratio.
+    Resource Width (Resource-Width): Specifies the width of a resource that the client intends to use.
+    Resource Height (Resource-Height): Specifies the height of a resource that the client intends to use.
+    Downlink (Downlink): Informs the server about the client's network downlink speed.
+    Save-Data (Save-Data): Indicates the client's preference for data-saving mode.
+    Viewport-Width (Viewport-Width): Informs the server about the client's visual viewport width.
+    Viewport-Height (Viewport-Height): Informs the server about the client's visual viewport height.
+    Device Memory (Device-Memory): Communicates the client's device memory in gigabytes.
+    RTT (Round Trip Time) (RTT): Informs the server about the client's estimated round-trip time to the server.
+    ECT (Effective Connection Type) (ECT): Specifies the client's effective connection type.
+    UA-Viewport (UA-Viewport): Communicates the client's viewport size in CSS pixels.
+    UA-Color (UA-Color): Specifies the client's screen color depth.
+    UA-Pixel-Ratio (UA-Pixel-Ratio): Indicates the client's device pixel ratio.
+    UA-Device (UA-Device): Communicates the client's device type.
+    UA-CPU (UA-CPU): Specifies the client's device CPU architecture.
+    UA-Mobile (UA-Mobile): Indicates whether the client is using a mobile device.
+    UA-Platform (UA-Platform): Specifies the client's platform (e.g., "iOS", "Android").
+    UA-Platform-Version (UA-Platform-Version): Communicates the version of the client's platform.

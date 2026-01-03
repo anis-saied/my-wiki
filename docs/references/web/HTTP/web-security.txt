@@ -1,0 +1,4 @@
+https : Sites should use HTTPS (or other secure protocols) for all communications
+Redirections from HTTP: Websites must redirect to HTTPS, API endpoints should disable HTTP entirely 
+Resource Loading: Both passive and active resources should be loaded through protocols using TLS, such as HTTPS 
+

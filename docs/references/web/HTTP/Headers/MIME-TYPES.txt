@@ -1,0 +1,28 @@
+Media types <=> MIME Types (Multipurpose Internet Mail Extensions)
+	nature/format
+	 "Nature" refers to what the data represents, whether it's a 
+	 	document :html pages,...
+	 	files : image, audio track, video, etc. 
+	 	Assortment of Bytes : just a collection of bytes without a specific file format.
+	 "Format" refers to how the data is structured and encoded, such as HTML, JSON, JPEG, PNG, etc.
+	exp: 
+		application/json
+		audio/mp3
+		image/png
+		text/html
+		text/plain
+		
+checks the "Content-Type" header sent by the web server. 
+This header specifies the media type of the response content. 
+example :
+if text/html => the browser display the content is an HTML document 
+if you download a file, the browser uses the MIME type to determine how to handle the file – whether to display it, download it, or prompt you to open it with a specific application.
+
+example :
+Content-type: text/plain; charset=iso-8859-1
+
+Notes
+The default character set, which must be assumed in the absence of a charset parameter, is US-ASCII.
+The body consists entirely of characters in the given charset.
+
+

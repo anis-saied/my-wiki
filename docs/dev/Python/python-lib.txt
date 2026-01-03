@@ -1,0 +1,4 @@
+Web Scraping Libraries:
+Languages like Python have libraries designed specifically for web scraping, such as Beautiful Soup, Scrapy (Python), 
+ Python has libraries like Beautiful Soup and lxml that allow you to parse and manipulate HTML and XML documents. 
+ These libraries provide APIs for navigating and modifying the document's structure.

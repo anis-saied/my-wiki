@@ -1,0 +1,12 @@
+---
+title: Config
+slug: /guides/vite/config
+sidebar_position: 1
+last_update:
+  date: 2026-01-03
+  author: Anis
+---
+
+# vite config
+
+- https://vitejs.dev/config/
