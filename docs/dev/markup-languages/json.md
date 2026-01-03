@@ -1,7 +1,7 @@
 ---
 title: Mdx
 slug: /dev/markup-languages/json
-sidebar_position: 4
+sidebar_position: 2
 last_update:
   date: 2026-01-03
   author: Anis

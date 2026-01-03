@@ -1,7 +1,7 @@
 ---
 title: Structure of How To Wiki
 slug: /guides/how-to-work-with-docusaurus/structure-links
-sidebar_position: 7
+sidebar_position: 1
 last_update:
   date: 2026-01-03
   author: Anis

@@ -1,6 +1,6 @@
 ---
 title: Introduction
-slug: /introduction
+slug: /intro
 sidebar_position: 1
 last_update:
   date: 2026-01-03

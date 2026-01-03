@@ -1,7 +1,7 @@
 ---
 title: Npm
 slug: /dev/node/npm
-sidebar_position: 5
+sidebar_position: 1
 last_update:
   date: 2026-01-03
   author: Anis

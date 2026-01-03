@@ -34,11 +34,11 @@ More details of [ways-of-using-vue](https://vuejs.org/guide/extras/ways-of-using
 ### Vue cheatsheets
 
 - [Vue 3 Cheatsheet](https://learnvue.co/vue-3-essentials-cheatsheet) from learnvue.co : [PDF](https://learnvue.co/LearnVue-Vue-3-Cheatsheet.pdf)
-- [LearnVue-Vue-3-Cheatsheet.pdf](pdf/LearnVue-Vue-3-Cheatsheet.pdf)
-- [Vue-3-Cheat-Sheet.pdf](pdf/Vue-3-Cheat-Sheet.pdf)
-- [Vue-Essentials-Cheat-Sheet.pdf](pdf/Vue-Essentials-Cheat-Sheet.pdf)
-- [Migration-Guide-Cheat-Sheet.pdf](pdf/Migration-Guide-Cheat-Sheet.pdf)
-- [Nuxtjs-Cheat-Sheet.pdf](pdf/Nuxtjs-Cheat-Sheet.pdf)
+- [LearnVue-Vue-3-Cheatsheet.pdf](https://pdf/LearnVue-Vue-3-Cheatsheet.pdf)
+- [Vue-3-Cheat-Sheet.pdf](https://pdf/Vue-3-Cheat-Sheet.pdf)
+- [Vue-Essentials-Cheat-Sheet.pdf](https://pdf/Vue-Essentials-Cheat-Sheet.pdf)
+- [Migration-Guide-Cheat-Sheet.pdf](https://pdf/Migration-Guide-Cheat-Sheet.pdf)
+- [Nuxtjs-Cheat-Sheet.pdf](https://pdf/Nuxtjs-Cheat-Sheet.pdf)
 
 
 ### Packages

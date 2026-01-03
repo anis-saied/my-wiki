@@ -172,7 +172,7 @@ To include images in your documentation source files, simply use any of the regu
 ```Markdown
 Cupcake indexer is a snazzy new project for indexing small cakes.
 
-![Screenshot](img/screenshot.png)
+![Screenshot](https://img/screenshot.png)
 
 *Above: Cupcake indexer in progress*
 ```

@@ -17,7 +17,7 @@ last_update:
 
 ### rooter cheat-sheet
 
-- [Vue-Router-Cheat-Sheet.pdf](Vue-Router-Cheat-Sheet.pdf)
+- [Vue-Router-Cheat-Sheet.pdf](https://Vue-Router-Cheat-Sheet.pdf)
 
 
 ### Tutorials

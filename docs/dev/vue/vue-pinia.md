@@ -18,7 +18,7 @@ Pinia is a store library for Vue, it allows you to **share a state** across comp
 - [Pinia 🍍](https://github.com/posva/pinia)
 
 ### cheat sheets
-- [Pinia-Cheat-Sheet.pdf](pdf/Pinia-Cheat-Sheet.pdf)
+- [Pinia-Cheat-Sheet.pdf](https://pdf/Pinia-Cheat-Sheet.pdf)
 
 
 

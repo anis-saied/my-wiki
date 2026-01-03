@@ -141,8 +141,8 @@ git push origin master --tags
 
 ## Packagist
 
-- Crée un compte sur [packagist.org](packagist.org)
-- Push ton repo sur [GitHub](github.com)
+- Crée un compte sur [packagist.org](https://packagist.org)
+- Push ton repo sur [GitHub](https://github.com)
 - Sur Packagist : “Submit” → lien vers ton GitHub → Packagist récupère `composer.json`
 - Ensuite, tout projet PHP pourra faire :
 ```bash

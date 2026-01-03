@@ -16,7 +16,7 @@ last_update:
 - [MDN JS Overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview)
 
 ## JS Cheatsheets
-- [js-cheatsheet.pdf](./pdf/js-cheatsheet.pdf)
+- [js-cheatsheet.pdf](https://./pdf/js-cheatsheet.pdf)
 
 ## Babel 
 
