@@ -33,3 +33,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          # Force push en utilisant une branche orpheline
+          force_orphan: true
