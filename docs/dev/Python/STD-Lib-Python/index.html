@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-dev/Python/STD-Lib-Python" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">STD Lib Python | My Site</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://anis-saied.github.io/my-wiki/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://anis-saied.github.io/my-wiki/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://anis-saied.github.io/my-wiki/docs/dev/Python/STD-Lib-Python"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="STD Lib Python | My Site"><meta data-rh="true" name="description" content="Built-in Functions"><meta data-rh="true" property="og:description" content="Built-in Functions"><link data-rh="true" rel="icon" href="/my-wiki/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://anis-saied.github.io/my-wiki/docs/dev/Python/STD-Lib-Python"><link data-rh="true" rel="alternate" href="https://anis-saied.github.io/my-wiki/docs/dev/Python/STD-Lib-Python" hreflang="en"><link data-rh="true" rel="alternate" href="https://anis-saied.github.io/my-wiki/docs/dev/Python/STD-Lib-Python" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Dev","item":"https://anis-saied.github.io/my-wiki/docs/category/dev"},{"@type":"ListItem","position":2,"name":"Python","item":"https://anis-saied.github.io/my-wiki/docs/category/python"},{"@type":"ListItem","position":3,"name":"STD Lib Python","item":"https://anis-saied.github.io/my-wiki/docs/dev/Python/STD-Lib-Python"}]}</script><link rel="alternate" type="application/rss+xml" href="/my-wiki/blog/rss.xml" title="My Site RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/my-wiki/blog/atom.xml" title="My Site Atom Feed"><link rel="stylesheet" href="/my-wiki/assets/css/styles.c51ffe61.css">
+<script src="/my-wiki/assets/js/runtime~main.2043834b.js" defer="defer"></script>
+<script src="/my-wiki/assets/js/main.e4b90ce2.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/my-wiki/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/my-wiki/"><div class="navbar__logo"><img src="/my-wiki/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/my-wiki/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">My Site</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/my-wiki/docs/intro">Tutorial</a><a class="navbar__item navbar__link" href="/my-wiki/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/anis-saied/my-wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/my-wiki/docs/intro"><span title="Introduction" class="linkLabel_WmDU">Introduction</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/my-wiki/docs/category/dev"><span title="Dev" class="categoryLinkLabel_W154">Dev</span></a><button aria-label="Collapse sidebar category &#x27;Dev&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/algorithms"><span title="Algorithms" class="categoryLinkLabel_W154">Algorithms</span></a><button aria-label="Expand sidebar category &#x27;Algorithms&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/css"><span title="CSS" class="categoryLinkLabel_W154">CSS</span></a><button aria-label="Expand sidebar category &#x27;CSS&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/javascript--ts"><span title="JavaScript &amp; TS" class="categoryLinkLabel_W154">JavaScript &amp; TS</span></a><button aria-label="Expand sidebar category &#x27;JavaScript &amp; TS&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/markup-languages"><span title="Markup languages" class="categoryLinkLabel_W154">Markup languages</span></a><button aria-label="Expand sidebar category &#x27;Markup languages&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/node"><span title="Node" class="categoryLinkLabel_W154">Node</span></a><button aria-label="Expand sidebar category &#x27;Node&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/php"><span title="PHP" class="categoryLinkLabel_W154">PHP</span></a><button aria-label="Expand sidebar category &#x27;PHP&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" tabindex="0" href="/my-wiki/docs/category/python"><span title="Python" class="categoryLinkLabel_W154">Python</span></a><button aria-label="Collapse sidebar category &#x27;Python&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/my-wiki/docs/dev/Python/"><span title="Python" class="linkLabel_WmDU">Python</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/my-wiki/docs/dev/Python/notes"><span title="Notes" class="linkLabel_WmDU">Notes</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/my-wiki/docs/dev/Python/packages"><span title="Packages" class="linkLabel_WmDU">Packages</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/my-wiki/docs/dev/Python/STD-Lib-Python"><span title="STD Lib Python" class="linkLabel_WmDU">STD Lib Python</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/vue"><span title="Vue" class="categoryLinkLabel_W154">Vue</span></a><button aria-label="Expand sidebar category &#x27;Vue&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/my-wiki/docs/category/angular"><span title="Angular" class="categoryLinkLabel_W154">Angular</span></a><button aria-label="Expand sidebar category &#x27;Angular&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-wiki/docs/dev/"><span title="Code Overview" class="linkLabel_WmDU">Code Overview</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/my-wiki/docs/category/guides"><span title="Guides" class="categoryLinkLabel_W154">Guides</span></a><button aria-label="Expand sidebar category &#x27;Guides&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/my-wiki/docs/category/references"><span title="references" class="categoryLinkLabel_W154">references</span></a><button aria-label="Expand sidebar category &#x27;references&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/my-wiki/docs/category/tools"><span title="Tools" class="categoryLinkLabel_W154">Tools</span></a><button aria-label="Expand sidebar category &#x27;Tools&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/my-wiki/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/my-wiki/docs/category/dev"><span>Dev</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/my-wiki/docs/category/python"><span>Python</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">STD Lib Python</span></li></ul></nav><div class="theme-doc-markdown markdown"><header><h1>STD Lib Python</h1></header><p>Built-in Functions
+Built-in Constants</p>
+<p>Constants added by the site module</p>
+<p>Built-in Types</p>
+<p>Truth Value Testing
+Boolean Operations — and, or, not
+Comparisons
+Numeric Types — int, float, complex
+Iterator Types
+Sequence Types — list, tuple, range
+Text Sequence Type — str
+Binary Sequence Types — bytes, bytearray, memoryview
+Set Types — set, frozenset
+Mapping Types — dict
+Context Manager Types
+Type Annotation Types — Generic Alias, Union
+Other Built-in Types
+Special Attributes
+Integer string conversion length limitation</p>
+<p>Built-in Exceptions</p>
+<p>Exception context
+Inheriting from built-in exceptions
+Base classes
+Concrete exceptions
+Warnings
+Exception groups
+Exception hierarchy</p>
+<p>Text Processing Services</p>
+<p>string — Common string operations
+re — Regular expression operations
+difflib — Helpers for computing deltas
+textwrap — Text wrapping and filling
+unicodedata — Unicode Database
+stringprep — Internet String Preparation
+readline — GNU readline interface
+rlcompleter — Completion function for GNU readline</p>
+<p>Binary Data Services</p>
+<p>struct — Interpret bytes as packed binary data
+codecs — Codec registry and base classes</p>
+<p>Data Types</p>
+<p>datetime — Basic date and time types
+zoneinfo — IANA time zone support
+calendar — General calendar-related functions
+collections — Container datatypes
+collections.abc — Abstract Base Classes for Containers
+heapq — Heap queue algorithm
+bisect — Array bisection algorithm
+array — Efficient arrays of numeric values
+weakref — Weak references
+types — Dynamic type creation and names for built-in types
+copy — Shallow and deep copy operations
+pprint — Data pretty printer
+reprlib — Alternate repr() implementation
+enum — Support for enumerations
+graphlib — Functionality to operate with graph-like structures</p>
+<p>Numeric and Mathematical Modules</p>
+<p>numbers — Numeric abstract base classes
+math — Mathematical functions
+cmath — Mathematical functions for complex numbers
+decimal — Decimal fixed point and floating point arithmetic
+fractions — Rational numbers
+random — Generate pseudo-random numbers
+statistics — Mathematical statistics functions</p>
+<p>Functional Programming Modules</p>
+<p>itertools — Functions creating iterators for efficient looping
+functools — Higher-order functions and operations on callable objects
+operator — Standard operators as functions</p>
+<p>File and Directory Access</p>
+<p>pathlib — Object-oriented filesystem paths
+os.path — Common pathname manipulations
+fileinput — Iterate over lines from multiple input streams
+stat — Interpreting stat() results
+filecmp — File and Directory Comparisons
+tempfile — Generate temporary files and directories
+glob — Unix style pathname pattern expansion
+fnmatch — Unix filename pattern matching
+linecache — Random access to text lines
+shutil — High-level file operations</p>
+<p>Data Persistence</p>
+<p>pickle — Python object serialization
+copyreg — Register pickle support functions
+shelve — Python object persistence
+marshal — Internal Python object serialization
+dbm — Interfaces to Unix “databases”
+sqlite3 — DB-API 2.0 interface for SQLite databases</p>
+<p>Data Compression and Archiving</p>
+<p>zlib — Compression compatible with gzip
+gzip — Support for gzip files
+bz2 — Support for bzip2 compression
+lzma — Compression using the LZMA algorithm
+zipfile — Work with ZIP archives
+tarfile — Read and write tar archive files</p>
+<p>File Formats</p>
+<p>csv — CSV File Reading and Writing
+configparser — Configuration file parser
+tomllib — Parse TOML files
+netrc — netrc file processing
+plistlib — Generate and parse Apple .plist files</p>
+<p>Cryptographic Services</p>
+<p>hashlib — Secure hashes and message digests
+hmac — Keyed-Hashing for Message Authentication
+secrets — Generate secure random numbers for managing secrets</p>
+<p>Generic Operating System Services</p>
+<p>os — Miscellaneous operating system interfaces
+io — Core tools for working with streams
+time — Time access and conversions
+argparse — Parser for command-line options, arguments and sub-commands
+getopt — C-style parser for command line options
+logging — Logging facility for Python
+logging.config — Logging configuration
+logging.handlers — Logging handlers
+getpass — Portable password input
+curses — Terminal handling for character-cell displays
+curses.textpad — Text input widget for curses programs
+curses.ascii — Utilities for ASCII characters
+curses.panel — A panel stack extension for curses
+platform — Access to underlying platform’s identifying data
+errno — Standard errno system symbols
+ctypes — A foreign function library for Python</p>
+<p>Concurrent Execution</p>
+<p>threading — Thread-based parallelism
+multiprocessing — Process-based parallelism
+multiprocessing.shared_memory — Shared memory for direct access across processes
+The concurrent package
+concurrent.futures — Launching parallel tasks
+subprocess — Subprocess management
+sched — Event scheduler
+queue — A synchronized queue class
+contextvars — Context Variables
+_thread — Low-level threading API</p>
+<p>Networking and Interprocess Communication</p>
+<p>asyncio — Asynchronous I/O
+socket — Low-level networking interface
+ssl — TLS/SSL wrapper for socket objects
+select — Waiting for I/O completion
+selectors — High-level I/O multiplexing
+signal — Set handlers for asynchronous events
+mmap — Memory-mapped file support</p>
+<p>Internet Data Handling</p>
+<p>email — An email and MIME handling package
+json — JSON encoder and decoder
+mailbox — Manipulate mailboxes in various formats
+mimetypes — Map filenames to MIME types
+base64 — Base16, Base32, Base64, Base85 Data Encodings
+binascii — Convert between binary and ASCII
+quopri — Encode and decode MIME quoted-printable data</p>
+<p>Structured Markup Processing Tools</p>
+<p>html — HyperText Markup Language support
+html.parser — Simple HTML and XHTML parser
+html.entities — Definitions of HTML general entities
+XML Processing Modules
+xml.etree.ElementTree — The ElementTree XML API
+xml.dom — The Document Object Model API
+xml.dom.minidom — Minimal DOM implementation
+xml.dom.pulldom — Support for building partial DOM trees
+xml.sax — Support for SAX2 parsers
+xml.sax.handler — Base classes for SAX handlers
+xml.sax.saxutils — SAX Utilities
+xml.sax.xmlreader — Interface for XML parsers
+xml.parsers.expat — Fast XML parsing using Expat</p>
+<p>Internet Protocols and Support</p>
+<p>webbrowser — Convenient web-browser controller
+wsgiref — WSGI Utilities and Reference Implementation
+urllib — URL handling modules
+urllib.request — Extensible library for opening URLs
+urllib.response — Response classes used by urllib
+urllib.parse — Parse URLs into components
+urllib.error — Exception classes raised by urllib.request
+urllib.robotparser — Parser for robots.txt
+http — HTTP modules
+http.client — HTTP protocol client
+ftplib — FTP protocol client
+poplib — POP3 protocol client
+imaplib — IMAP4 protocol client
+smtplib — SMTP protocol client
+uuid — UUID objects according to RFC 4122
+socketserver — A framework for network servers
+http.server — HTTP servers
+http.cookies — HTTP state management
+http.cookiejar — Cookie handling for HTTP clients
+xmlrpc — XMLRPC server and client modules
+xmlrpc.client — XML-RPC client access
+xmlrpc.server — Basic XML-RPC servers
+ipaddress — IPv4/IPv6 manipulation library</p>
+<p>Multimedia Services</p>
+<p>wave — Read and write WAV files
+colorsys — Conversions between color systems</p>
+<p>Internationalization</p>
+<p>gettext — Multilingual internationalization services
+locale — Internationalization services</p>
+<p>Program Frameworks</p>
+<p>turtle — Turtle graphics
+cmd — Support for line-oriented command interpreters
+shlex — Simple lexical analysis</p>
+<p>Graphical User Interfaces with Tk</p>
+<p>tkinter — Python interface to Tcl/Tk
+tkinter.colorchooser — Color choosing dialog
+tkinter.font — Tkinter font wrapper
+Tkinter Dialogs
+tkinter.messagebox — Tkinter message prompts
+tkinter.scrolledtext — Scrolled Text Widget
+tkinter.dnd — Drag and drop support
+tkinter.ttk — Tk themed widgets
+tkinter.tix — Extension widgets for Tk
+IDLE</p>
+<p>Development Tools</p>
+<p>typing — Support for type hints
+pydoc — Documentation generator and online help system
+Python Development Mode
+doctest — Test interactive Python examples
+unittest — Unit testing framework
+unittest.mock — mock object library
+unittest.mock — getting started
+2to3 — Automated Python 2 to 3 code translation
+test — Regression tests package for Python
+test.support — Utilities for the Python test suite
+test.support.socket_helper — Utilities for socket tests
+test.support.script_helper — Utilities for the Python execution tests
+test.support.bytecode_helper — Support tools for testing correct bytecode generation
+test.support.threading_helper — Utilities for threading tests
+test.support.os_helper — Utilities for os tests
+test.support.import_helper — Utilities for import tests
+test.support.warnings_helper — Utilities for warnings tests</p>
+<p>Debugging and Profiling</p>
+<p>Audit events table
+bdb — Debugger framework
+faulthandler — Dump the Python traceback
+pdb — The Python Debugger
+The Python Profilers
+timeit — Measure execution time of small code snippets
+trace — Trace or track Python statement execution
+tracemalloc — Trace memory allocations</p>
+<p>Software Packaging and Distribution</p>
+<p>distutils — Building and installing Python modules
+ensurepip — Bootstrapping the pip installer
+venv — Creation of virtual environments
+zipapp — Manage executable Python zip archives</p>
+<p>Python Runtime Services</p>
+<p>sys — System-specific parameters and functions
+sysconfig — Provide access to Python’s configuration information
+builtins — Built-in objects
+<strong>main</strong> — Top-level code environment
+warnings — Warning control
+dataclasses — Data Classes
+contextlib — Utilities for with-statement contexts
+abc — Abstract Base Classes
+atexit — Exit handlers
+traceback — Print or retrieve a stack traceback
+<strong>future</strong> — Future statement definitions
+gc — Garbage Collector interface
+inspect — Inspect live objects
+site — Site-specific configuration hook</p>
+<p>Custom Python Interpreters</p>
+<p>code — Interpreter base classes
+codeop — Compile Python code</p>
+<p>Importing Modules</p>
+<p>zipimport — Import modules from Zip archives
+pkgutil — Package extension utility
+modulefinder — Find modules used by a script
+runpy — Locating and executing Python modules
+importlib — The implementation of import
+importlib.resources – Package resource reading, opening and access
+importlib.resources.abc – Abstract base classes for resources
+importlib.metadata – Accessing package metadata
+The initialization of the sys.path module search path</p>
+<p>Python Language Services</p>
+<p>ast — Abstract Syntax Trees
+symtable — Access to the compiler’s symbol tables
+token — Constants used with Python parse trees
+keyword — Testing for Python keywords
+tokenize — Tokenizer for Python source
+tabnanny — Detection of ambiguous indentation
+pyclbr — Python module browser support
+py_compile — Compile Python source files
+compileall — Byte-compile Python libraries
+dis — Disassembler for Python bytecode
+pickletools — Tools for pickle developers</p>
+<p>MS Windows Specific Services</p>
+<p>msvcrt — Useful routines from the MS VC++ runtime
+winreg — Windows registry access
+winsound — Sound-playing interface for Windows</p>
+<p>Unix Specific Services</p>
+<p>posix — The most common POSIX system calls
+pwd — The password database
+grp — The group database
+termios — POSIX style tty control
+tty — Terminal control functions
+pty — Pseudo-terminal utilities
+fcntl — The fcntl and ioctl system calls
+resource — Resource usage information
+syslog — Unix syslog library routines</p>
+<p>Superseded Modules</p>
+<p>aifc — Read and write AIFF and AIFC files
+asynchat — Asynchronous socket command/response handler
+asyncore — Asynchronous socket handler
+audioop — Manipulate raw audio data
+cgi — Common Gateway Interface support
+cgitb — Traceback manager for CGI scripts
+chunk — Read IFF chunked data
+crypt — Function to check Unix passwords
+imghdr — Determine the type of an image
+imp — Access the import internals
+mailcap — Mailcap file handling
+msilib — Read and write Microsoft Installer files
+nis — Interface to Sun’s NIS (Yellow Pages)
+nntplib — NNTP protocol client
+optparse — Parser for command line options
+ossaudiodev — Access to OSS-compatible audio devices
+pipes — Interface to shell pipelines
+smtpd — SMTP Server
+sndhdr — Determine type of sound file
+spwd — The shadow password database
+sunau — Read and write Sun AU files
+telnetlib — Telnet client
+uu — Encode and decode uuencode files
+xdrlib — Encode and decode XDR data</p>
+<p>Security Considerations</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/anis-saied/my-wiki/tree/main/docs/dev/Python/STD-Lib-Python.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/my-wiki/docs/dev/Python/packages"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Packages</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/my-wiki/docs/category/vue"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Vue</div></a></nav></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/my-wiki/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/my-wiki/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/anis-saied/my-wiki" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
