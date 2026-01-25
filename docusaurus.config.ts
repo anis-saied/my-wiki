@@ -5,9 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "My wiki",
+  tagline: "Ma base de connaissances personnelle : Guide, Dev et Tools",
+  favicon: "img/logo.svg", // On utilise le même SVG que le logo
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -31,8 +31,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "fr",
+    locales: ["fr"],
   },
 
   presets: [
@@ -73,19 +73,19 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "My Site",
+      title: "My Wiki",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
-        { to: "/blog", label: "Blog", position: "left" },
+{
+  type: "docSidebar",
+  sidebarId: "tutorialSidebar",
+  position: "left",
+  label: "🚀 Savoirs", // Plus adapté à un wiki
+},
+        //{ to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/anis-saied/my-wiki",
           label: "GitHub",
@@ -93,51 +93,25 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/anis-saied/my-wiki",
-            },
-          ],
-        },
+   footer: {
+  style: "dark",
+  links: [
+    {
+      title: "Navigation",
+      items: [
+        { label: "Documentation", to: "/docs/intro" },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+    {
+      title: "Liens Externes",
+      items: [
+        { label: "GitHub", href: "https://github.com/anis-saied/my-wiki" },
+        // Ajoutez ici votre LinkedIn ou Portfolio si besoin
+      ],
+    },
+  ],
+  copyright: `Copyright © ${new Date().getFullYear()} Anis Saied. Built with Docusaurus.`,
+},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

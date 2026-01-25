@@ -1,6 +1,6 @@
 ---
 title: Deploy
-slug: /guides/static-website/docusaurus/deployment
+slug: /guides/static-website/docusaurus/deploy
 sidebar_position: 1
 last_update:
   date: 2026-01-03
@@ -10,6 +10,21 @@ last_update:
 # Deploy Docusaurus
 
 ## Deploy Docusaurus on Github pages
+
+### configure before deploy
+
+update the file : `docusaurus.config.ts`
+
+- url: `"https://<your-org>.github.io/"`
+- baseUrl: `"/<your-repo>/"`
+- organizationName: `"<your-org>"` : Usually your GitHub org/user name.
+- projectName: `"<your-repo>"` :Usually your repo name.
+- deploymentBranch: `"gh-pages"`,
+- onBrokenLinks: `"throw"`,
+
+### deploy
+
+**Note**: to deploy on gh-pages the github repository must be **public**
 
 - check if the site run withour errors
 
@@ -75,10 +90,9 @@ git push -u origin main
 
 - configure the remote respoitory
   - go to `https://github.com/<your-org>/<your-project>/settings/pages`
-  - then in the section : **Build and deployment** 
+  - then in the section : **Build and deployment**
     - **Source**: select from the select list: **deploy from a branch**
-    - **Branch**: select from the select list: **gh-pages** and **/root** 
+    - **Branch**: select from the select list: **gh-pages** and **/root**
   - then save
-  
 
 => Your site is live at `https://<your-org>.github.io/<your-project>/`

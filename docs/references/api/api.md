@@ -9,6 +9,9 @@ last_update:
 
 # API
 
+- API = JSON uniquement
+  - API pure JSON (pas de vues Blade)
+
 ## Open API
 ### Dev API
 
