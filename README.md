@@ -1,41 +1,20 @@
-# Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+# 🧠 My-Wiki
 
-## Installation
+Mes notes, mes projets et mes ressources pédagogiques en un seul endroit.
 
-```bash
-yarn
-```
+Ce site est construit avec [Docusaurus](https://docusaurus.io/), un générateur de site statique moderne.
 
-## Local Development
+## 🚀 Contenu
+- **Ressources** : Manuels et supports de cours (PDF).
+- **Guides** : Tutoriels et astuces de programmation.
+- **dev**: Outils et configurations pour développeurs.
+- **references** : Documentation technique et API.
+- **tools** : Outils divers pour le développement.
 
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## 🛠️ Installation
 
 ```bash
-yarn build
+npm install
+npm run start
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
