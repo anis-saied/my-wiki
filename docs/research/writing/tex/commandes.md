@@ -1,6 +1,6 @@
 ---
 title: Commandes
-slug: /tools/writing/tex/commandes
+slug: /research/writing/tex/commandes
 sidebar_position: 1
 last_update:
   date: 2026-01-03

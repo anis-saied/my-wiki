@@ -1,0 +1,40 @@
+https://laravel.com/docs/12.x/starter-kits#laravel-breeze
+filamentphp.com
+https://github.com/omaralalwi/laravel-startkit
+https://tenancyforlaravel.com/
+https://laravel-boilerplate.com/
+https://voyager.devdojo.com/
+https://github.com/thedevdojo/genesis
+
+
+Utiliser Laravel Blade (serveur rendu)
+
+➡️ Meilleur choix pour le SEO pur et la simplicité.
+
+Laravel Blade rend le HTML côté serveur → Google voit le contenu complet dès le chargement.
+
+Tu peux toujours utiliser un peu d’AJAX pour dynamiser certaines sections.
+
+Parfait pour les sites vitrines, blogs, e-commerce, etc.
+
+Stack recommandée :
+
+Backend : Laravel (API + controllers)
+
+Frontend : Blade + TailwindCSS + Alpine.js (léger framework JS)
+SEO : métadonnées via Blade, sitemap.xml, routes propres.
+
+👉 C’est rapide, propre et totalement SEO-friendly.
+
+starter template pour Blade + Alpine.js ?
+
+Projet open-source (sur GitHub) “Laravel 12 + Blade starter kit” qui utilise Blade + Alpine.js.
+
+https://github.com/imacrayon/blade-starter-kit
+https://github.com/aziyan99/laravel-adminlte-starter
+https://github.com/orchidsoftware/platform (https://orchid.software/)
+https://www.creative-tim.com/live/material-dashboard-laravel
+https://www.creative-tim.com/live/black-dashboard-laravel
+https://www.creative-tim.com/product/argon-dashboard-laravel/?AFFILIATE=52980
+
+https://github.com/omaralalwi/laravel-startkit

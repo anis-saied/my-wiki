@@ -34,8 +34,16 @@ Images resources on the web
   - change the width and the height :  w=350&h=350
   
 ## Emoji
-- [emojipedia](https://emojipedia.org/stopwatch)
 
+You can use emojis in your documentation by using their shortcode format. For example:
+- `:smile:` will render as  😄
+- `:rocket:` will render as  🚀
+
+list of supported emojis can be found
+- [emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [unicode-emoji-list](https://unicode.org/emoji/charts/full-emoji-list.html)
+- [https://getemoji.com/](https://getemoji.com/)
+- [emojipedia](https://emojipedia.org/stopwatch)
 - [Github Emojis](https://api.github.com/emojis) via REST API
 
 ## Edit images
