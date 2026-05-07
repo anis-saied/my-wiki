@@ -1,0 +1,8 @@
+{
+  "label": "mdBook",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "https://github.com/rust-lang/mdBook"
+  }
+}

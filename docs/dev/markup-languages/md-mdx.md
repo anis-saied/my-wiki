@@ -1,6 +1,6 @@
 ---
-title: Fichiers Markdown (.md / .mdx)
-slug: /dev/text/md-mdx
+title: Markdown (.md / .mdx)
+slug: /dev/markup-languages/md-mdx
 sidebar_position: 1
 last_update:
   date: 2026-01-03

@@ -1,0 +1,8 @@
+{
+  "label": "Books",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "This folder contains a list of 'Books'"
+  }
+}
