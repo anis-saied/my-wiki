@@ -1,6 +1,6 @@
 ---
 title: Écosystème du Chercheur
-slug: /research/writing/researcher-ecosystem
+slug: /research/ecosystem
 sidebar_position: 1
 last_update:
   date: 2026-02-04

@@ -1,5 +1,5 @@
 ---
-title: Api
+title: Rôles et permissions
 slug: /references/api/roles-permissions
 sidebar_position: 1
 last_update:
